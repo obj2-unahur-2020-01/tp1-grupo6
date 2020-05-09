@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<!--<link rel="stylesheet" href="css/theme/black.css" id="theme">-->
+		<link rel="stylesheet" href="css/theme/league.css">
+		<link rel="stylesheet" href="?transition=convex#/transitions">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+		
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- ESTA ES LA PRIMERA DIAPOSITIVA -->
+				<section>
+					<h1>C#</h1>
+					<h3>El mejor lenguaje de progrmación del mundo</h3>
+					<p>
+						<small>Created by <a href="http://hakim.se">Grupo 6</a></small>
+					</p>
+				</section>
+				<section>
+					<section>
+						<h2>Historia</h2>
+						<p>En enero de 1999, <a href="https://es.wikipedia.org/wiki/Anders_Hejlsberg" target="_blank">Anders Hejlsberg</a>, creador de lenguajes como Turbo Pascal y Delphi, formó un equipo para diseñar un nuevo lenguaje, cuyo nombre inicial fue <strong>Cool</strong> (C-like Object Oriented Language). Microsoft quiso mantener dicho nombre como definitivo pero por razones de registro de marca tuvo que echarse para atrás.</p>
+					</section>
+					<section>
+						<h3>C# Versión 2</h3>
+						<p>En esta version lanzada en 2005 se encuentran muchas caracteristicas nuevas como:</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/" target="_blank">Genericos</a> Listas genericas</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/partial-type" target="_blank">Tipos parciales</a> Clases divididas en varios archivos</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/operators/delegate-operator" target="_blank">Métodos anónimos</a> Método delegate</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/nullable-value-types" target="_blank">Tipos anulables</a> Valores admiten NULL</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/iterators" target="_blank">Iteradores</a> Ciclo Foreach</p>
+					</section>
+
+					<section>
+						<h3>C# Versión 3</h3>
+						<p>Esta version apareció a finales de 2007. Estas son algunas de sus características:</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties" target="_blank">Propiedades auto-implementadas</a></p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/anonymous-types" target="_blank">Tipos anónimos</a> Objetos sin definición de clase</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/linq/query-expression-basics" target="_blank">Consultas - LINQ</a> Language INtegrated Query.</p>
+						<p class="fragment"><a href="https://geeks.ms/jorge/2017/09/21/metodos-anonimos-y-expresiones-lambda-en-c/">Expresiones Lambda</a> Crea tipos delegados</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/expression-trees/" target="_blank">Árboles de expresión</a> Cada nodo es una expresión</p>
+						<p class="fragment"><a href="https://itblogsogeti.com/2017/07/20/metodos-de-extension-para-c/" target="_blank">Métodos de extensión</a> Agregar métodos a tipos existentes</p>
+					</section>
+					<section>
+						<h3>C# Versión 4</h3>
+						<p>Esta version apareció en 2010. Estas son sus principales características:</p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/reference-types" target="_blank">Tipos dinámicos</a></p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments" target="_blank">Arg. opc. y con nombre</a></p>
+						<p class="fragment"><a href="https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/interop/interoperability-overview" target="_blank">Tipos interop embebidos</a></p>
+						
+					</section>
+
+
+				</section>
+
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
